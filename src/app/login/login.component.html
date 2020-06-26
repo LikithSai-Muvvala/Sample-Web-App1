@@ -1,0 +1,54 @@
+<section>
+  <div class="container">
+    <div class="row min-vh-100">
+      <div class="col dark-overlay">
+        <div class="d-flex h-100 justify-content-center">
+          <div class="card my-auto text-center card-set">
+            <div class="card-header">
+              <img class="img img-fluid rounded-circle" 
+              src="https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_male_business-512.png">
+              <h3 class="text-white"> Login User </h3>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <input text="text" class="form-control form-control-lg" placeholder="User Name">
+                </div>
+                <div class="form-group">
+                  <input text="password" class="form-control form-control-lg" placeholder="Password">
+                </div> 
+              </form>  
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#alertModal">
+                Submit
+              </button>
+            </div>  
+          </div>  
+        </div>   
+      </div>  
+    </div>  
+  </div>  
+</section> 
+
+<div class="modal fade" tabindex="-1" 
+ data-backdrop="static" data-keyboard="false" id="alertModal">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5> Confirmation Message </h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Are you sure you want to re-direct to <strong>Home</strong> page ?</p>
+      </div>   
+      <div class="modal-footer">
+        <button class="btn btn-success"
+        data-dismiss="modal" (click)="onLogin()">Ok</button>
+        <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+      </div> 
+    </div>    
+  </div>
+</div>  

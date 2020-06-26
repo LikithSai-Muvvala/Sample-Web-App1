@@ -1,0 +1,5 @@
+.sec-body {
+  margin-top: 55px;
+  height: calc(100vh - 79px);
+  overflow-y: auto;
+}

@@ -1,0 +1,13 @@
+a{
+  cursor: pointer;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh
+}
+
+.error-content {
+    position: absolute;
+    top: 100px;
+}

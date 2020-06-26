@@ -1,0 +1,16 @@
+ tbody {
+  width: 100%;
+  display:block;
+  height: calc(100vh - 160px);
+  overflow:auto;
+}
+
+thead tr {
+    display:table;
+    width:auto; 
+    table-layout:auto;
+}
+
+thead tr {
+    width: calc( 100% - 1em )
+}
